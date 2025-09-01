@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MajesticEcommerceAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cab65676ecda622daed5231468a9b9022db5c78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5323093aaa4fd9ffc174ee8a63461e4d336736f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MajesticEcommerceAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MajesticEcommerceAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

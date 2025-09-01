@@ -6,8 +6,10 @@ WORKDIR /src
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copy the rest of the source code and build
+# Copy the rest of the source code
 COPY . .
+
+# Build and publish the app
 RUN dotnet publish -c Release -o /app
 
 # Use the ASP.NET runtime image for the final container
@@ -20,5 +22,5 @@ COPY --from=build /app .
 # Expose port 8080 (Render expects apps to listen on $PORT)
 EXPOSE 8080
 
-# Start the application
+# Set the entrypoint
 ENTRYPOINT ["dotnet", "MajesticEcommerceAPI.dll"]

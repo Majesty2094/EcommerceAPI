@@ -6,8 +6,13 @@ WORKDIR /src
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copy the rest of the source code
+
+# Copy everything (including Images folder)
 COPY . .
+
+# OR explicitly copy Images if you want to be sure
+COPY Images ./Images
+
 
 # Build and publish the app
 RUN dotnet publish -c Release -o /app

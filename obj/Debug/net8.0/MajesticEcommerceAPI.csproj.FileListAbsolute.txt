@@ -181,3 +181,4 @@ C:\Users\MJ\Desktop\WebSite3\MajesticEcommerceAPI\bin\Debug\net8.0\MajesticEcomm
 C:\Users\MJ\Desktop\WebSite3\MajesticEcommerceAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\MJ\Desktop\WebSite3\MajesticEcommerceAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\MJ\Desktop\WebSite3\MajesticEcommerceAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\MJ\Desktop\WebSite3\MajesticEcommerceAPI\obj\Debug\net8.0\MajesticEcommerceAPI.sourcelink.json

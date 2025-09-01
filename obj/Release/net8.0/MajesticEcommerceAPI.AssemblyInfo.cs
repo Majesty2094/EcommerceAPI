@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f5b8f967-f49e-450e-abca-3056a48dac3b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MajesticEcommerceAPI")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cab65676ecda622daed5231468a9b9022db5c78")]
 [assembly: System.Reflection.AssemblyProductAttribute("MajesticEcommerceAPI")]

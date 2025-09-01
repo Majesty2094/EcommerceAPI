@@ -11,8 +11,8 @@ RUN dotnet restore
 COPY . .
 
 # OR explicitly copy Images if you want to be sure
-COPY Images ./Images
-
+# Copy the Images folder into the container
+COPY Images/ /app/Images/
 
 # Build and publish the app
 RUN dotnet publish -c Release -o /app

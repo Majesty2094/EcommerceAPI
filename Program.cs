@@ -92,12 +92,13 @@ var app = builder.Build();
 // 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1");
-    });
+
 }
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1");
+});
 
 app.UseStaticFiles(); // 
 app.UseStaticFiles(new StaticFileOptions
